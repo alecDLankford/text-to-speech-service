@@ -24,7 +24,7 @@ This is a simple Flask web service that converts text to speech using the Google
    git clone https://github.com/yourusername/flask-text-to-speech.git
    cd flask-text-to-speech
    ```
-2. **Install the required packages**
+2. **Install the required packages:**
 
   ```bash
   pip install -r requirements.txt
