@@ -18,13 +18,13 @@ This is a simple Flask web service that converts text to speech using the Google
 
 ## Installation
 
-1. **Clone the repository:**
+1\. **Clone the repository:**
 
    ```bash
    git clone https://github.com/yourusername/flask-text-to-speech.git
    cd flask-text-to-speech
    ```
-2. **Install the required packages:**
+2\. **Install the required packages:**
 
   ```bash
   pip install -r requirements.txt
@@ -32,7 +32,7 @@ This is a simple Flask web service that converts text to speech using the Google
    
 ## Usage
 
-1. **Start the Flask Server:**
+1\. **Start the Flask Server:**
 
 ```bash
 
