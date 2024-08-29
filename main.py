@@ -1,6 +1,7 @@
+from io import BytesIO
 from flask import Flask, request, send_file, jsonify
 from gtts import gTTS
-from io import BytesIO
+
 
 app = Flask(__name__)
 
@@ -22,10 +23,10 @@ def generate_voice():
         audio_buff.seek(0)
 
         return send_file(audio_buff, mimetype='audio/mpeg', as_attachment=False, download_name="TextToSpeech.mp3")
-    
+
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
+
 
 if __name__ == "__main__":
     app.run()
